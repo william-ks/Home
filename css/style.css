@@ -402,3 +402,24 @@ section .certificates a:hover{
         width: 47%;
     }
 }
+
+@media screen and (max-width:500px){
+    section .skill .skillBox h2{
+        font-size: 25px;
+    }
+
+    section .skill .skillBox a:hover{
+        font-size: 27px;
+    }
+
+
+    section .skill h2{
+        font-size: 20px;
+    }
+    
+    
+    section .skill ul li{
+        margin: 10px 0;
+        font-size: 15px;
+    }
+}
