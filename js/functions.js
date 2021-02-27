@@ -18,6 +18,7 @@ $(() => {
         target.each(function() {
 
             if (windowTop > (OFF_SET_TOP(this) - offset)) {
+                $(this).css('opacity', '1');
                 $(this).addClass(animationClass);
             }
 
